@@ -6,11 +6,17 @@
   "bin": {
     "project-cli": "dist/index.js"
   },
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "start": "tsup && node dist/index.js"
   },
-  "keywords": ["cli","tool", "project templates"],
+  "keywords": [
+    "cli",
+    "tool",
+    "project templates"
+  ],
   "author": "Helgadigitals by lemasani",
   "license": "ISC",
   "devDependencies": {
@@ -23,6 +29,8 @@
     "typescript-eslint": "^8.18.2"
   },
   "dependencies": {
-    "@clack/prompts": "0.9.0"
+    "@clack/prompts": "0.9.0",
+    "axios": "^1.7.9",
+    "simple-git": "^3.27.0"
   }
 }

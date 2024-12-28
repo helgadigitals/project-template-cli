@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
 import * as clack from '@clack/prompts';
-import { type FoldersAvailable, readFolders } from './utils/readFolders';
-import { copyToFolder } from './utils/copyToFolder';
+import { fetchGitHubTemplates, downloadAndCopyRepo } from './utils/git';
 import * as process from 'node:process';
 
 async function main() {
@@ -18,12 +17,13 @@ async function main() {
 		}
 	})) as string;
 	
-	let templates: FoldersAvailable[] = [];
+	let templates = [];
 	
 	try {
-		templates = await readFolders(`${mainDirectory}/templates`);
+		templates = await fetchGitHubTemplates();
 	} catch (error) {
-		clack.log.error('🛑 Error reading templates folder.');
+		console.error(error);
+		clack.log.error('🛑 Error fetching templates from GitHub.');
 		process.exit(1);
 	}
 	
@@ -35,10 +35,11 @@ async function main() {
 	try {
 		const s = clack.spinner();
 		s.start('Creating project...');
-		await copyToFolder(selectProjectType, `${mainDirectory}/${projectName}`);
+		await downloadAndCopyRepo(selectProjectType, `${mainDirectory}/${projectName}`);
 		clack.log.success('✅ Project created successfully.');
 		process.exit(0);
 	} catch (error) {
+		console.error(error);
 		clack.log.error('🛑 Error creating a project:');
 		process.exit(1);
 	}
