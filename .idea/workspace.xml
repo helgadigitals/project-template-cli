@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -22,6 +25,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "21.0.0",
     "javascript.nodejs.core.library.typings.version": "22.10.2",
@@ -52,7 +56,7 @@
       <updated>1735371047960</updated>
       <workItem from="1735371049040" duration="1468000" />
       <workItem from="1735372960176" duration="47000" />
-      <workItem from="1735378626207" duration="630000" />
+      <workItem from="1735378626207" duration="1009000" />
     </task>
     <servers />
   </component>
