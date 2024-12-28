@@ -1,13 +1,17 @@
 {
-  "name": "cli",
+  "name": "project-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "bin": {
+    "project-cli": "dist/index.js"
+  },
+  "files": ["dist/**/*"],
   "scripts": {
     "start": "tsup && node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["cli","tool", "project templates"],
+  "author": "Helgadigitals by lemasani",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.17.0",
