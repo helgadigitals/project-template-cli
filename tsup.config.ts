@@ -14,7 +14,7 @@ export default defineConfig({
 	outDir: 'dist',
 	async onSuccess() {
 		await cp(
-			path.join(path.dirname(fileURLToPath(import.meta.url)), 'templates'), // 👈 This folder will be created in the next step on this tutorial 😉.
+			path.join(path.dirname(fileURLToPath(import.meta.url)), 'templates'),
 			path.join('dist', 'templates'),
 			{ recursive: true }
 		);

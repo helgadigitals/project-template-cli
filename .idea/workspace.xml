@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="064f3b8f-457e-4f4c-8e4a-9d56bf035db2" name="Changes" comment="webstorm idea config">
-      <change afterPath="$PROJECT_DIR$/src/utils/copyToFolder.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/createFolder.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/readFolders.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-    </list>
+    <list default="true" id="064f3b8f-457e-4f4c-8e4a-9d56bf035db2" name="Changes" comment="Complete setup for cli" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +69,7 @@
       <updated>1735371047960</updated>
       <workItem from="1735371049040" duration="1468000" />
       <workItem from="1735372960176" duration="47000" />
-      <workItem from="1735378626207" duration="2986000" />
+      <workItem from="1735378626207" duration="3337000" />
     </task>
     <task id="LOCAL-00001" summary="webstorm idea config">
       <option name="closed" value="true" />
@@ -86,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735379827378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Complete setup for cli">
+      <option name="closed" value="true" />
+      <created>1735381819329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735381819329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="webstorm idea config" />
-    <option name="LAST_COMMIT_MESSAGE" value="webstorm idea config" />
+    <MESSAGE value="Complete setup for cli" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete setup for cli" />
   </component>
 </project>

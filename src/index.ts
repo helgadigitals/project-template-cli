@@ -43,7 +43,7 @@ async function main() {
 		process.exit(1);
 	}
 	
-	clack.outro('👋 Goodbye');
+	clack.outro('👋 Thank you');
 }
 
 main();
