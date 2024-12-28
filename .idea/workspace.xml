@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="064f3b8f-457e-4f4c-8e4a-9d56bf035db2" name="Changes" comment="updated name in package.json to @helgadigitals/project-cli" />
+    <list default="true" id="064f3b8f-457e-4f4c-8e4a-9d56bf035db2" name="Changes" comment="webstorm">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +71,7 @@
       <updated>1735371047960</updated>
       <workItem from="1735371049040" duration="1468000" />
       <workItem from="1735372960176" duration="47000" />
-      <workItem from="1735378626207" duration="4514000" />
+      <workItem from="1735378626207" duration="4858000" />
     </task>
     <task id="LOCAL-00001" summary="webstorm idea config">
       <option name="closed" value="true" />
@@ -119,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735383180130</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="webstorm">
+      <option name="closed" value="true" />
+      <created>1735383232250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735383232250</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,9 +139,9 @@
     <MESSAGE value="webstorm idea config" />
     <MESSAGE value="Complete setup for cli" />
     <MESSAGE value="removed unccessary comments" />
-    <MESSAGE value="webstorm" />
     <MESSAGE value="updated name in package.json" />
     <MESSAGE value="updated name in package.json to @helgadigitals/project-cli" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated name in package.json to @helgadigitals/project-cli" />
+    <MESSAGE value="webstorm" />
+    <option name="LAST_COMMIT_MESSAGE" value="webstorm" />
   </component>
 </project>
