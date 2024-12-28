@@ -1,0 +1,24 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsup && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "22.10.2",
+    "eslint": "9.17.0",
+    "globals": "^15.14.0",
+    "tsup": "8.3.5",
+    "typescript": "5.7.2",
+    "typescript-eslint": "^8.18.2"
+  },
+  "dependencies": {
+    "@clack/prompts": "0.9.0"
+  }
+}
