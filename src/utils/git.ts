@@ -13,16 +13,22 @@ interface GitHubRepo {
 	clone_url: string;
 }
 
+// custom  allowed repository names here
+const ALLOWED_REPOS = ['landing-page', 'template-repo2'];
+
 export const fetchGitHubTemplates = async (): Promise<GitHubTemplate[]> => {
 	const GITHUB_USER = 'helgadigitals';
 	const API_URL = `https://api.github.com/users/${GITHUB_USER}/repos`;
 	
 	try {
 		const response = await axios.get<GitHubRepo[]>(API_URL);
-		return response.data.map((repo) => ({
+		const filteredRepos = response.data.filter(repo =>
+			repo.name.startsWith('template-') || ALLOWED_REPOS.includes(repo.name)
+		);
+		return filteredRepos.map((repo) => ({
 			label: repo.name,
 			value: repo.clone_url,
-		}));
+		}))
 	} catch (error) {
 		console.error('Error fetching GitHub templates:', error);
 		throw error;
