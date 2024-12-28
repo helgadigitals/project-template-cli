@@ -6,7 +6,7 @@ import { copyToFolder } from './utils/copyToFolder';
 import * as process from 'node:process';
 
 async function main() {
-	clack.intro('🚀 Welcome to my CLI app');
+	clack.intro('🚀 Welcome to Project-template-cli');
 	
 	const mainDirectory = process.cwd();
 	
